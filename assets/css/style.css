@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("./root.css");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  font-family: "Poppins" !important;
+}
+body {
+  background: var(--darkblue) !important;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-900 {
+  font-weight: 900;
+}
+
+/* nav bar */
+.pt-28 {
+  padding-top: 28px;
+}
+
+.header-bg {
+  background-image: url("../img/png/header-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.gap-80 {
+  gap: 80px;
+}
+.navItem {
+  position: relative;
+  transition: all 300ms linear;
+}
+.navItem::after {
+  position: absolute;
+  content: " ";
+  bottom: -3px;
+  left: 50%;
+  height: 2px;
+  width: 0;
+  transition: all 300ms linear;
+  background-color: var(--white);
+  transform: translateX(-50%);
+}
+.navItem:hover::after {
+  width: 100%;
+  border-radius: 10px;
+}
+.pointer {
+  cursor: pointer;
+}
+/* ----------hero section--------- */
+.mb-27 {
+  margin-bottom: 27px;
+}
+.mb-46 {
+  margin-bottom: 46px;
+}
+.getBtn {
+  padding: 16px 40px;
+  background-color: var(--white);
+  border-radius: 45.5px;
+  transition: all 300ms linear;
+  border: none;
+}
+.getBtn:hover {
+  color: var(--white);
+  background-color: var(--l-blue);
+}
+/* ----------------------- Mint Your Bat--------------------- */
+.py-26-131 {
+  padding: 26px 0 131px;
+}
+.max-574 {
+  max-width: 574px;
+}
+.mt-21 {
+  margin-top: 21px;
+}
+.comingBtn {
+  padding: 10px 20px;
+  border-radius: 45.5px;
+  transition: all 300ms linear;
+  background-color: var(--white);
+  border: none;
+}
+.comingBtn:hover {
+  color: var(--white);
+  background-color: var(--l-blue);
+}
+.my-63-52 {
+  margin: 63px 0 52px;
+}
+.card-box {
+  background-color: var(--mixblue);
+  padding: 40px;
+  border-radius: 20px;
+}
+.cards-img {
+  max-width: 117px;
+  height: 145px;
+}
+.my-44-25 {
+  margin: 44px 0 25px;
+}
+.row-gap-41 {
+  row-gap: 41px;
+}
+.mt-127 {
+  margin-top: 127px !important;
+}
+
+.iconBox {
+  transition: all 300ms linear;
+}
+.iconBox:hover {
+  transform: translateY(-6px);
+}
