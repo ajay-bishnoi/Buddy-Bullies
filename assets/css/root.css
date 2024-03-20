@@ -118,6 +118,9 @@
   .card-box {
     padding: 22px;
   }
+  .accordion-item {
+    margin-bottom: 20px !important;
+  }
 }
 @media (max-width: 1200px) {
   :root {
@@ -167,7 +170,7 @@
     --fs-xsm: 14px;
     --fs-sm: 16px;
     --fs-md: 18px;
-    --fs-lg: 20px;
+    --fs-lg: 18px;
     --fs-xl: 21px;
     --fs-2xl: 25px;
     --fs-3xl: 24px;
@@ -340,6 +343,9 @@
   .lh-37 {
     line-height: 24.5px;
   }
+  .accordion-item {
+    margin-bottom: 16px !important;
+  }
   .my-21 {
     margin: 10px 0;
   }
@@ -388,13 +394,19 @@
   .pb-110 {
     padding-bottom: 70px;
   }
+  .accordion {
+    --bs-accordion-btn-padding-x: 22px !important;
+    --bs-accordion-btn-padding-y: 16px !important;
+    --bs-accordion-body-padding-x: 0px 0px 22px !important;
+    --bs-accordion-body-padding-y: 12px !important;
+  }
 }
 @media (max-width: 576px) {
   :root {
     --fs-xsm: 14px;
     --fs-sm: 14px;
     --fs-md: 18px;
-    --fs-lg: 16px;
+    --fs-lg: 14px;
     --fs-xl: 21px;
     --fs-2xl: 18px;
     --fs-3xl: 17px;
@@ -424,6 +436,9 @@
   }
   .my-44-25 {
     margin: 12px 0;
+  }
+  .mb-47 {
+    margin-bottom: 40px;
   }
   .lh-24 {
     line-height: 22px;
