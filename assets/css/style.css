@@ -137,3 +137,116 @@ body {
 .iconBox:hover {
   transform: translateY(-6px);
 }
+/* ------------road map---------------- */
+.pb-110 {
+  padding-bottom: 110px;
+}
+.mb-63 {
+  margin-bottom: 63px;
+}
+.max-938 {
+  max-width: 938px;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+}
+.timeline::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: calc(100% - 20%);
+  background: repeating-linear-gradient(
+    transparent 0,
+    transparent 5px,
+    var(--white) 5px,
+    var(--white) 10px
+  );
+  top: 2%;
+  bottom: 18%;
+  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.roadBox {
+  padding-right: 65px;
+  position: relative;
+  width: 50%;
+}
+.timeline > :first-child {
+  padding-bottom: 135px;
+}
+.timeline > :nth-child(2) {
+  padding-bottom: 201px;
+}
+
+.left {
+  left: 0;
+}
+.right {
+  left: 50%;
+  padding-right: 0;
+  padding-left: 65px;
+}
+.right :first-child {
+  left: -33px;
+}
+.Dots {
+  width: 64.92px;
+  height: 64.92px;
+  opacity: 0.1px;
+  background-color: var(--filterblue);
+  border-radius: 50%;
+  position: absolute;
+  right: -32px;
+  top: -16px;
+  z-index: 10;
+}
+.Dots > div {
+  width: 43px;
+  height: 43px;
+  border: 3.23px solid var(--white);
+  background-color: var(--blue);
+  border-radius: 50%;
+}
+.mt-141 {
+  margin-top: 141px;
+}
+/* -----------------team-------------------- */
+.py-42-121 {
+  padding: 121px 0 42px;
+}
+.max-1012 {
+  max-width: 1012.43px !important;
+}
+.teamImg {
+  max-width: 311px;
+  height: 311px;
+}
+.my-32-02 {
+  margin: 32px 0 2px;
+}
+/* ----------------footer------------------ */
+.py-179-56 {
+  padding: 179px 0 56px;
+}
+.bg-layer {
+  background-image: url("../img/png/footerLayer.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.mb-106 {
+  margin-bottom: 106px;
+}
+.my-21 {
+  margin: 21px 0;
+}
+.gap-6 {
+  gap: 6px;
+}
+.gap-12 {
+  gap: 12px;
+}

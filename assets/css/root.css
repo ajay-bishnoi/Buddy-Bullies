@@ -15,6 +15,7 @@
   --mixblue: #031227;
   --l-blue: #001d49;
   --blue: #009dff;
+  --filterblue: #001931;
 }
 .l-blue {
   color: var(--l-blue);
@@ -46,6 +47,15 @@
 .lh-21 {
   line-height: 21.76px;
 }
+.lh-45 {
+  line-height: 45px;
+}
+.lh-29 {
+  line-height: 29px;
+}
+.lh-62 {
+  line-height: 62px;
+}
 .lh-19 {
   line-height: 19.5px;
 }
@@ -60,6 +70,9 @@
 }
 .opacity-07 {
   opacity: 0.7;
+}
+.opacity-06 {
+  opacity: 0.6;
 }
 /* -----lh---- */
 .fs-14 {
@@ -114,8 +127,8 @@
     --fs-lg: 20px;
     --fs-xl: 21px;
     --fs-2xl: 25px;
-    --fs-3xl: 30px;
-    --fs-4xl: 50px;
+    --fs-3xl: 28px;
+    --fs-4xl: 46px;
     --fs-5xl: 70px;
   }
   .gap-80 {
@@ -123,6 +136,30 @@
   }
   .my-44-25 {
     margin: 22px 0 18px;
+  }
+  .py-179-56 {
+    padding: 90px 0 56px;
+  }
+  .row-gap-41 {
+    row-gap: 24px;
+  }
+  .my-63-52 {
+    margin: 40px 0;
+  }
+  .mb-106 {
+    margin-bottom: 90px;
+  }
+  .py-42-121 {
+    padding: 90px 0 42px;
+  }
+  .pb-110 {
+    padding-bottom: 90px;
+  }
+  .mt-141 {
+    margin-top: 90px;
+  }
+  .py-26-131 {
+    padding: 26px 0 90px;
   }
 }
 @media (max-width: 992px) {
@@ -133,9 +170,15 @@
     --fs-lg: 20px;
     --fs-xl: 21px;
     --fs-2xl: 25px;
-    --fs-3xl: 30px;
-    --fs-4xl: 50px;
+    --fs-3xl: 24px;
+    --fs-4xl: 40px;
     --fs-5xl: 70px;
+  }
+  .lh-62 {
+    line-height: 42px;
+  }
+  .lh-68 {
+    line-height: 45px;
   }
   .moblieView {
     position: absolute;
@@ -200,6 +243,9 @@
   .mt-21 {
     margin-top: 24px;
   }
+  .my-32-02 {
+    margin: 16px 0 2px;
+  }
   .my-63-52 {
     margin: 40px 0;
   }
@@ -209,8 +255,59 @@
   .mt-127 {
     margin-top: 80px !important;
   }
+  .py-42-121 {
+    padding: 80px 0 42px;
+  }
   .py-26-131 {
     padding: 26px 0 80px;
+  }
+  .timeline > :first-child {
+    padding-bottom: 60px;
+  }
+  .timeline > :nth-child(2) {
+    padding-bottom: 60px;
+  }
+
+  .timeline::after {
+    left: 6%;
+  }
+  .right {
+    left: 6%;
+    padding-right: 0;
+    padding-left: 65px;
+  }
+  .left {
+    left: 6%;
+  }
+  .roadBox {
+    padding-left: 65px;
+    padding-right: 0;
+    width: 90%;
+  }
+  .Dots {
+    right: unset;
+    left: -33px;
+  }
+  .timeline::after {
+    height: calc(100% - 24%);
+  }
+  .mt-141 {
+    margin-top: 80px;
+  }
+  .pb-110 {
+    padding-bottom: 80px;
+  }
+  .mb-106 {
+    margin-bottom: 80px;
+  }
+  .py-179-56 {
+    padding: 80px 0 56px;
+  }
+  .mb-63 {
+    margin-bottom: 50px;
+  }
+  .lh-45 {
+    line-height: 34px;
   }
 }
 @media (max-width: 768px) {
@@ -221,11 +318,16 @@
     --fs-lg: 16px;
     --fs-xl: 21px;
     --fs-2xl: 22px;
-    --fs-3xl: 24px;
-    --fs-4xl: 45px;
+    --fs-3xl: 22px;
+    --fs-4xl: 38px;
     --fs-5xl: 55px;
   }
-
+  .lh-45 {
+    line-height: 32px;
+  }
+  .lh-62 {
+    line-height: 47px;
+  }
   .lh-40 {
     line-height: 32px;
   }
@@ -234,6 +336,15 @@
   }
   .lh-68 {
     line-height: 48px;
+  }
+  .lh-37 {
+    line-height: 24.5px;
+  }
+  .my-21 {
+    margin: 10px 0;
+  }
+  .mb-106 {
+    margin-bottom: 50px;
   }
   .mb-27 {
     margin-bottom: 10px;
@@ -256,11 +367,26 @@
   .py-26-131 {
     padding: 26px 0 70px;
   }
+  .py-42-121 {
+    padding: 70px 0 42px;
+  }
+  .mb-106 {
+    margin-bottom: 50px;
+  }
   .mt-127 {
     margin-top: 70px !important;
   }
+  .py-179-56 {
+    padding: 70px 0 56px;
+  }
   .my-63-52 {
     margin: 28px 0;
+  }
+  .mt-141 {
+    margin-top: 70px;
+  }
+  .pb-110 {
+    padding-bottom: 70px;
   }
 }
 @media (max-width: 576px) {
@@ -270,9 +396,9 @@
     --fs-md: 18px;
     --fs-lg: 16px;
     --fs-xl: 21px;
-    --fs-2xl: 22px;
-    --fs-3xl: 18px;
-    --fs-4xl: 32px;
+    --fs-2xl: 18px;
+    --fs-3xl: 17px;
+    --fs-4xl: 28px;
     --fs-5xl: 40px;
   }
   .header-bg {
@@ -313,5 +439,61 @@
   }
   .mt-21 {
     margin-top: 16px;
+  }
+  .Dots > div {
+    width: 32px;
+    height: 32px;
+  }
+  .lh-62 {
+    line-height: 28px;
+  }
+  .mb-63 {
+    margin-bottom: 40px;
+  }
+  .Dots {
+    width: 48.92px;
+    height: 48.92px;
+  }
+  .right :first-child {
+    left: -17px;
+  }
+  .Dots {
+    right: unset;
+    left: -17px;
+    top: -5%;
+  }
+  .timeline::after {
+    left: 8.1%;
+    height: calc(100% - 29%);
+  }
+  .lh-29 {
+    line-height: 22px;
+  }
+  .timeline > :nth-child(2) {
+    padding-bottom: 40px;
+  }
+  .timeline > :first-child {
+    padding-bottom: 40px;
+  }
+  .roadBox {
+    padding-left: 55px;
+  }
+  .mt-141 {
+    margin-top: 50px;
+  }
+  .pb-110 {
+    padding-bottom: 50px;
+  }
+  .lh-45 {
+    line-height: 26px;
+  }
+  .py-179-56 {
+    padding: 40px 0 40px;
+  }
+  .mb-106 {
+    margin-bottom: 40px;
+  }
+  .py-42-121 {
+    padding: 40px 0 40px;
   }
 }
