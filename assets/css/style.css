@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("./root.css");
 * {
@@ -10,6 +11,9 @@
 }
 body {
   background: var(--darkblue) !important;
+}
+.ff_Montserrate {
+  font-family: "Montserrat" !important;
 }
 .fw-300 {
   font-weight: 300;
@@ -213,6 +217,55 @@ body {
 }
 .mt-141 {
   margin-top: 141px;
+}
+/* ------------------faq-------------------- */
+.mb-47 {
+  margin-bottom: 47px;
+}
+.accordion {
+  --bs-accordion-bg: transparent !important;
+  --bs-accordion-border-color: unset !important;
+  --bs-accordion-border-width: unset !important;
+  --bs-accordion-border-radius: unset !important;
+  --bs-accordion-inner-border-radius: unset !important;
+  --bs-accordion-btn-padding-x: 32px !important;
+  --bs-accordion-btn-padding-y: 20px !important;
+  --bs-accordion-btn-color: var(--white) !important;
+  --bs-accordion-btn-bg: var(--mixblue) !important;
+  --bs-accordion-btn-icon: unset !important;
+  --bs-accordion-btn-active-icon: unset !important;
+  --bs-accordion-btn-focus-box-shadow: unset !important;
+  --bs-accordion-body-padding-x: 0px 0px 30px !important;
+  --bs-accordion-body-padding-y: 20px !important;
+  --bs-accordion-active-color: var(--white) !important;
+  --bs-accordion-active-bg: var(--mixblue) !important;
+  max-width: 830px !important;
+}
+.accordion-button {
+  font-size: var(--fs-lg) !important;
+  color: var(--white) !important;
+}
+.accordion > :last-child {
+  margin-bottom: 0 !important;
+}
+.accordion-item:first-of-type {
+  border-top-left-radius: unset !important;
+  border-top-right-radius: unset !important;
+}
+.accordion-button {
+  border-radius: 150px !important;
+}
+.accordion-button::after {
+  width: 14px !important;
+  height: 8px !important;
+  background-image: url("../img/svg/downArrow.svg") !important;
+  background-size: unset !important;
+}
+.accordion-item {
+  color: unset !important;
+  background-color: unset !important;
+  border: unset !important;
+  margin-bottom: 26px !important;
 }
 /* -----------------team-------------------- */
 .py-42-121 {
