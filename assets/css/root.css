@@ -111,15 +111,51 @@
     --fs-lg: 20px;
     --fs-xl: 21px;
     --fs-2xl: 25px;
-    --fs-3xl: 30px;
-    --fs-4xl: 50px;
-    --fs-5xl: 70px;
+    --fs-3xl: 28px;
+    --fs-4xl: 46px;
+    --fs-5xl: 65px;
   }
   .card-box {
     padding: 22px;
   }
   .accordion-item {
     margin-bottom: 20px !important;
+  }
+  .mt-127 {
+    margin-top: 100px !important;
+  }
+  .mt-141 {
+    margin-top: 100px;
+  }
+  .pb-110 {
+    padding-bottom: 100px;
+  }
+  .py-42-121 {
+    padding: 100px 0 42px;
+  }
+  .py-179-56 {
+    padding: 100px 0 56px;
+  }
+  .my-44-25 {
+    margin: 22px 0 14px;
+  }
+  .gap-80 {
+    gap: 47px;
+  }
+  .lh-86 {
+    line-height: 73.8px;
+  }
+  .lh-40 {
+    line-height: 34.8px;
+  }
+  .py-26-131 {
+    padding: 26px 0 100px;
+  }
+  .lh-68 {
+    line-height: 44px;
+  }
+  .my-63-52 {
+    margin: 42px 0;
   }
 }
 @media (max-width: 1200px) {
@@ -132,7 +168,7 @@
     --fs-2xl: 25px;
     --fs-3xl: 28px;
     --fs-4xl: 46px;
-    --fs-5xl: 70px;
+    --fs-5xl: 65px;
   }
   .gap-80 {
     gap: 60px;
@@ -177,6 +213,7 @@
     --fs-4xl: 40px;
     --fs-5xl: 70px;
   }
+
   .lh-62 {
     line-height: 42px;
   }
