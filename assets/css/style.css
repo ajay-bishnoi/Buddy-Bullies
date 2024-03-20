@@ -383,3 +383,20 @@ body {
 .overflow_hidden {
   overflow: hidden !important;
 }
+/* -------------ellips */
+.roadEllips {
+  left: -15%;
+  top: 21%;
+  width: 337px;
+  height: 337px;
+  background-color: var(--blue);
+  filter: blur(148px);
+  z-index: -3;
+}
+.mintEllips {
+  width: 337px;
+  height: 337px;
+  background-color: var(--blue);
+  filter: blur(148px);
+  z-index: -3;
+}
