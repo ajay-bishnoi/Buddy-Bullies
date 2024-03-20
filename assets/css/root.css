@@ -292,6 +292,7 @@
   .menu {
     position: relative;
     z-index: 100;
+    cursor: pointer;
   }
   .menu span:nth-child(1) {
     display: block;
