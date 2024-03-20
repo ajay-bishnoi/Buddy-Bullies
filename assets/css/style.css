@@ -393,12 +393,22 @@ body {
   filter: blur(148px);
   z-index: -3;
 }
-.mintEllips {
+.accordionEllips {
+  position: absolute;
   width: 337px;
   height: 337px;
   background-color: var(--blue);
   filter: blur(148px);
   z-index: -3;
+}
+.mintEllips {
+  position: absolute;
+  width: 337px;
+  height: 337px;
+  background-color: var(--blue);
+  filter: blur(148px);
+  z-index: -3;
+  top: 33%;
 }
 .cardEllips {
   top: 21%;
@@ -409,4 +419,5 @@ body {
   filter: blur(148px);
   z-index: -3;
   right: -15%;
+  z-index: -3;
 }
