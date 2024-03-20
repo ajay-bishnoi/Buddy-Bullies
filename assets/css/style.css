@@ -400,3 +400,13 @@ body {
   filter: blur(148px);
   z-index: -3;
 }
+.cardEllips {
+  top: 21%;
+  position: absolute;
+  width: 337px;
+  height: 337px;
+  background-color: var(--blue);
+  filter: blur(148px);
+  z-index: -3;
+  right: -15%;
+}
