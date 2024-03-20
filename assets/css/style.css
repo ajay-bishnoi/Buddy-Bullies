@@ -400,6 +400,18 @@ body {
   background-color: var(--blue);
   filter: blur(148px);
   z-index: -3;
+  right: -14%;
+  top: -32%;
+}
+.accordionEllips2 {
+  position: absolute;
+  width: 337px;
+  height: 337px;
+  background-color: var(--blue);
+  filter: blur(148px);
+  z-index: -3;
+  right: -14%;
+  bottom: -13%;
 }
 .mintEllips {
   position: absolute;
@@ -417,7 +429,6 @@ body {
   height: 337px;
   background-color: var(--blue);
   filter: blur(148px);
-  z-index: -3;
   right: -15%;
   z-index: -3;
 }
