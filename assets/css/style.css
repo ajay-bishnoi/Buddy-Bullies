@@ -250,3 +250,40 @@ body {
 .gap-12 {
   gap: 12px;
 }
+/* back to top */
+.backtop {
+  position: fixed;
+  cursor: pointer;
+  display: none;
+  right: 1%;
+  bottom: 2%;
+  opacity: 0.9;
+  border-radius: 50%;
+  background: var(--white);
+  height: 51px;
+  width: 51px;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  box-shadow: var(--shadowWhite) 0px 0px 8px -1px !important;
+}
+.backtop > svg path {
+  fill: var(--l-blue);
+}
+.scale_06 {
+  scale: 0.6;
+}
+.backtop {
+  animation: move 1.3s infinite linear;
+}
+.backtop:hover {
+  animation: move 5s infinite linear !important;
+}
+@keyframes move {
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}

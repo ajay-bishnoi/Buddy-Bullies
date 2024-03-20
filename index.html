@@ -18,12 +18,16 @@
                 <div class="d-flex align-items-center justify-content-between">
                     <h3 class="mb-0 fw-600 fs-21 lh-32 white pointer">Logo</h3>
                     <ul class="ps-0 mb-0 d-flex align-items-center gap-80 moblieView closeNav">
-                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#">Minting</a></li>
-                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#">Road Map</a>
+                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem"
+                                href="#Minting">Minting</a></li>
+                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#RoadMap">Road
+                                Map</a>
                         </li>
-                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#">Faq</a></li>
-                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#">Team</a></li>
-                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#">Join Us</a></li>
+                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#Faq">Faq</a></li>
+                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#Team">Team</a>
+                        </li>
+                        <li><a onclick="navWorking()" class="fw-500 fs-18 lh-27 white navItem" href="#JoinUs">Join
+                                Us</a></li>
                     </ul>
                     <div class="menu d-lg-none" onclick="openNav()">
                         <span></span>
@@ -51,7 +55,7 @@
         </section>
     </header>
     <!-- Mint Your Bat -->
-    <section class="py-26-131">
+    <section id="Minting" class="py-26-131">
         <div class="container">
             <div class="row d-flex justify-content-lg-between align-items-lg-end">
                 <div class="col-lg-6 col-12 d-flex justify-content-center ">
@@ -104,7 +108,7 @@
         </div>
     </section>
     <!-- Roadmap -->
-    <section class="pb-110">
+    <section id="RoadMap" class="pb-110">
         <div class="container">
             <h1 class="mb-63 fw-600 fs-50 lh-68 white text-center">Roadmap</h1>
             <div class="timeline max-938 mx-auto">
@@ -156,8 +160,10 @@
             </p>
         </div>
     </section>
+    <!-- Faq -->
+    <section id="Faq"></section>
     <!-- team -->
-    <section class="py-42-121">
+    <section id="Team" class="py-42-121">
         <div class="container">
             <h2 class="mb-27 fw-600 fs-50 lh-68 white text-center">Our Team</h2>
             <div class="row max-1012 mx-auto w-100 d-flex justify-content-center">
@@ -186,7 +192,7 @@
         </div>
     </section>
     <!-- footer -->
-    <footer class="py-179-56 bg-layer">
+    <footer id="JoinUs" class="py-179-56 bg-layer">
         <div class="container">
             <h2 class="mb-106 fw-600 fs-50 lh-62 white text-center">JOIN US</h2>
             <div class="row d-flex justify-content-between align-items-center">
@@ -204,9 +210,9 @@
                         <div class="col-4">
                             <ul class="ps-0 mb-0 d-flex flex-column gap-6">
                                 <li class="fw-500 fs-16 lh-24 white mb-1">Resources</li>
-                                <li><a class="fw-400 fs-14 lh-19 white navItem" href="#Roadmap">Roadmap</a></li>
-                                <li><a class="fw-400 fs-14 lh-19 white navItem" href="#FAQs">FAQs</a></li>
-                                <li><a class="fw-400 fs-14 lh-19 white navItem" href="#">Mint your Bully</a></li>
+                                <li><a class="fw-400 fs-14 lh-19 white navItem" href="#RoadMap">Roadmap</a></li>
+                                <li><a class="fw-400 fs-14 lh-19 white navItem" href="#Faq">FAQs</a></li>
+                                <li><a class="fw-400 fs-14 lh-19 white navItem" href="#Minting">Mint your Bully</a></li>
                             </ul>
                         </div>
                         <div class="col-4">
@@ -241,6 +247,13 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div id="myBtn" onclick="topFunction()" class="backtop">
+            <svg class="scale_06" width="34" height="34" viewBox="0 0 34 34" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.0835 17.0007V33.6673H14.9168V17.0007H0.333496L17.0002 0.333984L33.6668 17.0007H19.0835Z"
+                    fill="white" />
+            </svg>
         </div>
     </footer>
 

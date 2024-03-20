@@ -63,3 +63,19 @@ for (let i = 0; i < cardData.length; i++) {
   cardColumn.appendChild(card);
   cardRow.appendChild(cardColumn);
 }
+
+// back to top button //
+let mybutton = document.getElementById("myBtn");
+function topFunction() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+window.addEventListener("scroll", () => {
+  if (window.innerWidth < 992 && window.scrollY > 1050) {
+    mybutton.setAttribute("style", "display: flex;");
+  } else if (window.innerWidth >= 992 && window.scrollY > 400) {
+    mybutton.setAttribute("style", "display: flex;");
+  } else {
+    mybutton.setAttribute("style", "display: none;");
+  }
+});
