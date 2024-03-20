@@ -348,3 +348,38 @@ body {
     transform: translateY(0px);
   }
 }
+/* ------------pre loader --------------- */
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--mixblue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.loader {
+  width: 260px;
+  height: 120px;
+  background: transparent;
+  animation: spin 4s linear infinite;
+}
+.loader > img {
+  width: 221px;
+  height: 221px;
+}
+@keyframes spin {
+  50% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(3);
+  }
+}
+.overflow_hidden {
+  overflow: hidden !important;
+}

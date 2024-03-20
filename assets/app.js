@@ -12,9 +12,17 @@ function navWorking() {
     document.querySelector(".menu").classList.toggle("cross");
   }
 }
+// preLoader//
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("load", function () {
+    setTimeout(function () {
+      let loadingOverlay = document.getElementById("loadingOverlay");
+      loadingOverlay.style.display = "none";
+      document.querySelector("body").classList.remove("overflow_hidden");
+    }, 1000);
+  });
+});
 // --------- //
-("use strict");
-
 const cardRow = document.querySelector(".sixCard");
 cardRow.classList.add("row-gap-41");
 const cardData = [
