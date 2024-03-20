@@ -6,7 +6,7 @@ function openNav() {
 }
 
 function navWorking() {
-  if (window.innerWidth < 576) {
+  if (window.innerWidth < 992) {
     document.querySelector("body").classList.remove("overflow_hide");
     document.querySelector(".closeNav").classList.toggle("start-0");
     document.querySelector(".menu").classList.toggle("cross");
